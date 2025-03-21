@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Montserrat Underline Thin";
+    font-display: swap;
+    font-weight: 500;
+    src: url("./assets/Fonts/MontserratUnderline-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    font-display: swap;
+    font-weight: 400;
+    src: url("./assets/Fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+
+@theme {
+    --color-bg-1: oklch(16.59% 0.047 297.08);
+    --color-bg-h-1: oklch(14.62% 0.0347 297);
+    --color-bg-2: oklch(21.93% 0.0711 295.75);
+    --color-bg-3: oklch(23.51% 0.0802 295);
+    --color-text-color: oklch(90% 0.0182 196.83);
+    
+    --font-montserrat: "Montserrat Underline Thin";
+    --font-open: "Open Sans Light";
+}
