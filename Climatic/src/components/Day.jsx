@@ -26,7 +26,7 @@ function Day()
             
             
             
-            <div className="flex h-1/4 items-end text-base lg:text-2xl lg:mb-7">
+            <div className="flex h-1/4 items-end text-base lg:text-3xl lg:mb-7">
                 
                 31° - 16°
             </div>
