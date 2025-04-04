@@ -1,37 +1,15 @@
-import NowWeather from "./NowWeather.jsx";
-import WeekWeather from "./WeekWeather.jsx";
+import TodayWeather from "./TodayWeather.jsx";
+import Days from "./Days.jsx";
 
 function WeatherDisplay()
 {
-    
     return (
-        <div className="
-        w-[90%]
-        h-[90%]
-        mt-8
-        p-8
+        <div className="flex flex-col lg:flex-row bg-bg-1 h-[68vh] lg:h-[57vh] w-[86%] lg:w-[84%] rounded-xl p-8 shadow-xl" >
         
-        flex
-        
-        bg-bg-1 
-        rounded-xl
-        shadow-xl
-        ">
-            
-            <div className="
-            bg-bg-3
-            h-full
-            w-[40%]
-            rounded-xl
-            p-4
-            
-            ">
-                <NowWeather></NowWeather>
-                <WeekWeather></WeekWeather>
+            <TodayWeather></TodayWeather>
+            <Days></Days>
 
-            </div>
-            
-            
+
         </div>
     );
 }

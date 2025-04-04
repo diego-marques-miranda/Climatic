@@ -11,11 +11,9 @@ function App() {
         <div className="bg-bg-2 text-text-color overflow-hidden min-h-screen min-w-screen flex flex-col items-center">
             <Header></Header>
            
-            <div className="flex flex-col h-full p-8 justify-center items-center">
-                <CityInput></CityInput>
-
-                <WeatherDisplay></WeatherDisplay>
-            </div>
+            <CityInput></CityInput>
+            
+            <WeatherDisplay></WeatherDisplay>
             
             
            

@@ -3,29 +3,24 @@ import icon from '../assets/Images/Icon-192.png'
 function Header()
 {
     return (
-        <div className="
-        flex 
+        <div className="flex 
         justify-center 
         items-center 
-        p-8 
-        min-w-screen 
-        bg-bg-1
+        w-full 
+        h-[15vh] 
+        lg:h-[20vh]
+        bg-bg-1 
         font-montserrat
-        shadow-md
+        text-5xl
+        lg:text-[96px]
+        
+        shadow-xl
         ">
-
-            <div className="
-                min-w-[40px] min-h-[40px]
-                max-w-[120px] max-h-[120px] 
-                sm:max-w-[80px] sm:max-h-[80px]
-                md:max-w-[100px] md:max-h-[100px]
-                lg:max-w-[120px] lg:max-h-[120px]
-            ">
-                <img src={icon} alt="Sun icon" className="w-full h-full" />
-            </div>
-
-
-            <h1 className="text-text-color mx-10 text-5xl lg:text-7xl">CLIMATIC</h1>
+            <img className="
+            w-16 h-16
+            lg:w-[110px] lg:h-[110px]
+            " src={icon} alt=""/>
+            <span className="ml-4 lg:ml-8">CLIMATIC</span>
         </div>
         
     );
