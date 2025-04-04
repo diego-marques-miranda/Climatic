@@ -23,7 +23,7 @@ function Now()
                 gap-4 /* Adiciona um espaçamento menor entre o ícone e o texto */
                 lg:gap-8
             ">
-                <img className="w-[114px] h-[114px] lg:h-[170px] lg:w-[170px]" src={icon} alt=""/>
+                <img className="w-[114px] h-[114px] lg:h-[150px] lg:w-[150px]" src={icon} alt=""/>
                 <div className="flex flex-col justify-center items-start /* Alinha o texto à esquerda dentro do container */">
                     <p className="text-6xl lg:text-8xl">27°</p>
                     <p className="text-xl lg:text-3xl">Sunny</p>
