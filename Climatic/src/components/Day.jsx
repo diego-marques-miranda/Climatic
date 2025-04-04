@@ -15,12 +15,12 @@ function Day()
                 <img src={icon} alt="" className="w-12 h-12 lg:w-[150px] lg:h-[150px]"/>
                 <div className="flex items-center">
                     <div className="h-[14px] w-[14px] lg:h-8 lg:w-8 mr-2 bg-blue-700 rounded-full"></div>
-                    <p className="text-sm">33%</p>
+                    <p className="text-sm lg:text-lg">33%</p>
                 </div>
 
                 <div className="flex items-center">
                     <div className="h-[14px] w-[14px] lg:h-8 lg:w-8 mr-2 bg-yellow-300 rounded-full"></div>
-                    <p className="text-sm">UV Low</p>
+                    <p className="text-sm lg:text-lg">UV Low</p>
                 </div>
             </div>
             
