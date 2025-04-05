@@ -14,10 +14,6 @@ function App() {
             <CityInput></CityInput>
             
             <WeatherDisplay></WeatherDisplay>
-            
-            
-           
-           
            
         </div> 
     

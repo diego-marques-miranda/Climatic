@@ -1,8 +1,18 @@
+import {useState} from "react";
 
 function CityInput()
 {
+    const [city, setCity] = useState("");
+    
+    function Search(e)
+    {
+        setCity(e.target.value.trim());
+        console.log(`ATENÇÃO: state 'city' foi alterado para: ${city}`);
+        
+    }
+    
     return (
-        <div className="
+            <div className="
         bg-bg-1 
         px-4 
         py-3 
@@ -23,14 +33,14 @@ function CityInput()
         lg:text-2xl
         
         ">
-            <div className="flex items-center">
-                <input className="focus:outline-none w-[80%]" type="text" placeholder="Enter a city..."/>
+                <div className="flex items-center">
+                    <input onChange={(e) => Search(e)} value={city} className="focus:outline-none w-[80%]" type="text" placeholder="Enter a city..."/>
+                </div>
+
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-text-color">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
             </div>
-            
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-text-color">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-            </svg>
-        </div>
         
         
     );
