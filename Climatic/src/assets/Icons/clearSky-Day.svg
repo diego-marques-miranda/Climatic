@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- (c) ammap.com | SVG weather icons -->
+
+<svg
+   version="1.1"
+   width="40.399998"
+   height="44.400002"
+   viewbox="0 0 64 64"
+   id="svg11"
+   sodipodi:docname="clearSky-Day.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="12.609375"
+     inkscape:cx="26.091698"
+     inkscape:cy="17.566295"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs2">
+    <filter
+       id="blur"
+       width="1.6833333"
+       height="1.85"
+       x="-0.34166667"
+       y="-0.34166667">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="3"
+         id="feGaussianBlur1" />
+      <feOffset
+         dx="0"
+         dy="4"
+         result="offsetblur"
+         id="feOffset1" />
+      <feComponentTransfer
+         id="feComponentTransfer1">
+        <feFuncA
+           type="linear"
+           slope="0.05"
+           id="feFuncA1" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge2">
+        <feMergeNode
+           id="feMergeNode1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode2" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g
+     filter="url(#blur)"
+     id="day"
+     transform="matrix(1.5309177,0,0,1.5309177,-28.771148,-26.807344)">
+    <g
+       transform="translate(32,32)"
+       id="g11">
+      <g
+         class="am-weather-sun am-weather-sun-shiny am-weather-easing-ease-in-out"
+         id="g10">
+        <g
+           id="g2">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line2" />
+        </g>
+        <g
+           transform="rotate(45)"
+           id="g3">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line3" />
+        </g>
+        <g
+           transform="rotate(90)"
+           id="g4">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line4" />
+        </g>
+        <g
+           transform="rotate(135)"
+           id="g5">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line5" />
+        </g>
+        <g
+           transform="scale(-1)"
+           id="g6">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line6" />
+        </g>
+        <g
+           transform="rotate(-135)"
+           id="g7">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line7" />
+        </g>
+        <g
+           transform="rotate(-90)"
+           id="g8">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line8" />
+        </g>
+        <g
+           transform="rotate(-45)"
+           id="g9">
+          <line
+             fill="none"
+             stroke="#ffa500"
+             stroke-linecap="round"
+             stroke-width="2"
+             transform="translate(0,9)"
+             x1="0"
+             x2="0"
+             y1="0"
+             y2="3"
+             id="line9" />
+        </g>
+      </g>
+      <circle
+         cx="0"
+         cy="0"
+         fill="#ffa500"
+         r="5"
+         stroke="#ffa500"
+         stroke-width="2"
+         id="circle10" />
+    </g>
+  </g>
+</svg>

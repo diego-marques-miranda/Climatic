@@ -1,4 +1,4 @@
-import icon from '../assets/Images/Icon-192.png'
+import icon from '../assets/Icons/clearSky-Day.svg'
 
 function Header()
 {
@@ -17,8 +17,8 @@ function Header()
         shadow-xl
         ">
             <img className="
-            w-16 h-16
-            lg:w-[110px] lg:h-[110px]
+            w-18 h-18
+            lg:w-[120px] lg:h-[120px]
             " src={icon} alt=""/>
             <span className="ml-4 lg:ml-8">CLIMATIC</span>
         </div>

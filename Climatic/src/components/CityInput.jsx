@@ -1,14 +1,25 @@
-import {useState} from "react";
+import {useContext, useState} from "react";
+import WeatherContext from "../Contexts/WeatherContext.jsx";
 
 function CityInput()
 {
+    const {updateCity} = useContext(WeatherContext);
+    
     const [city, setCity] = useState("");
     
-    function Search(e)
+    function handleInputChange(e)
     {
-        setCity(e.target.value.trim());
-        console.log(`ATENÇÃO: state 'city' foi alterado para: ${city}`);
-        
+        const value = e.target.value;
+        setCity(value);
+    }
+    
+    function submitCity(e)
+    {
+        if (e.key === 'Enter' && city.trim() !== '')
+        {
+            updateCity(city);
+
+        }
     }
     
     return (
@@ -32,9 +43,11 @@ function CityInput()
         lg:w-[25%]
         lg:text-2xl
         
-        ">
+        "
+            onKeyDown={(e) => submitCity(e)}    
+            >
                 <div className="flex items-center">
-                    <input onChange={(e) => Search(e)} value={city} className="focus:outline-none w-[80%]" type="text" placeholder="Enter a city..."/>
+                    <input onChange={(e) => handleInputChange(e)} value={city} className="focus:outline-none w-[80%]" type="text" placeholder="Enter a city..."/>
                 </div>
 
                 <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-text-color">
