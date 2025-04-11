@@ -17,8 +17,8 @@ function Header()
         shadow-xl
         ">
             <img className="
-            w-18 h-18
-            lg:w-[120px] lg:h-[120px]
+            w-18 h-20
+            lg:w-[120px] lg:h-[128px]
             " src={icon} alt=""/>
             <span className="ml-4 lg:ml-8">CLIMATIC</span>
         </div>

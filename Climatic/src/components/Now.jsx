@@ -41,6 +41,12 @@ function Now()
     const localMinutes = localDate.getMinutes();
    
     const description = getWeatherDescription(weathercode);
+
+    function formatTime(hours, minutes) {
+        const formattedHours = hours < 10 ? `0${hours}` : hours;
+        const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes;
+        return `${formattedHours} : ${formattedMinutes}`;
+    }
     
     return (
         <div
@@ -67,7 +73,7 @@ function Now()
                 <div className="flex flex-col justify-center items-start /* Alinha o texto à esquerda dentro do container */">
                     <p className="text-6xl lg:text-8xl">{Math.round(temperature)}°</p>
                     <p className="text-xl lg:text-3xl">{description}</p>
-                    <p className="text-base lg:text-xl">{localHours} : {localMinutes}</p>
+                    <p className="text-base lg:text-xl">{formatTime(localHours, localMinutes)}</p>
                 </div>
             </div>
         </div>
