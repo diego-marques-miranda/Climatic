@@ -133,6 +133,11 @@ export const WeatherProvider = ({ children }) => {
         }
     }, [dailyForecast]);
     
+    function getCity()
+    {
+        return city;
+    }
+    
     function IconSelector(weatherCode, isDay)
     {
         switch (weatherCode)
@@ -242,7 +247,7 @@ export const WeatherProvider = ({ children }) => {
     }
     
     return (
-        <WeatherContext.Provider value={{ city, currentWeather, hourlyForecast, dailyForecast, loading, error, updateCity, IconSelector, getWeatherDescription}}>
+        <WeatherContext.Provider value={{ city, currentWeather, hourlyForecast, dailyForecast, loading, error, updateCity, IconSelector, getWeatherDescription, getCity}}>
             {children}
         </WeatherContext.Provider>
     );
