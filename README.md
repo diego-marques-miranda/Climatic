@@ -1,12 +1,20 @@
-# React + Vite
+# Diego Marques Miranda
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Climatic - Weather Forecast Website
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Climatic is a web application that provides weather forecasts. Built using React and leveraging web APIs for weather data, it offers users an intuitive and responsive way to check current weather conditions and future forecasts.
 
-## Expanding the ESLint configuration
+**Live Demo:** [https://climatic-diego-marques-mirandas-projects.vercel.app/](https://climatic-diego-marques-mirandas-projects.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+* **React:** A JavaScript library for building user interfaces.
+* **Web APIs:** Used to fetch weather data from external services. (Open-meteo, Nominatim)
+
+## Features
+
+* Display current weather conditions for any location.
+* Show future weather forecasts.
+* User-friendly and responsive design.
