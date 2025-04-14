@@ -6,7 +6,7 @@
 
 Climatic is a web application that provides weather forecasts. Built using React and leveraging web APIs for weather data, it offers users an intuitive and responsive way to check current weather conditions and future forecasts.
 
-**Live Demo:** [https://climatic-diego-marques-mirandas-projects.vercel.app/](https://climatic-diego-marques-mirandas-projects.vercel.app/)
+# [https://climatic-diego-marques-mirandas-projects.vercel.app/](https://climatic-diego-marques-mirandas-projects.vercel.app/)
 
 ## Technologies Used
 
