@@ -11,6 +11,7 @@ function CityInput()
     {
         const value = e.target.value;
         setInputCity(value);
+        updateCity(inputCity);
     }
     
     function submitCity(e)
