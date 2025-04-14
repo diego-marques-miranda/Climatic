@@ -7,7 +7,9 @@ function Hours()
     const {hourlyForecast} = useContext(WeatherContext);
 
     if (!hourlyForecast || !Array.isArray(hourlyForecast?.time) || hourlyForecast.time.length === 0) {
-        return <div className="w-full h-[52%] ">Loading...</div>;
+        return <div className="w-full h-[52%] flex items-center justify-center text-neutral-500
+                text-xl 
+                font-bold "></div>;
     }
     
     const {time, temperature_2m, weathercode} = hourlyForecast;

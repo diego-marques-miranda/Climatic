@@ -28,6 +28,10 @@ function Now()
                 justify-center
                 gap-4 /* Adiciona um espaçamento menor entre o ícone e o texto */
                 lg:gap-8
+                text-neutral-500
+                text-xl 
+                font-bold
+                
             ">
                 Loading...
             </div>

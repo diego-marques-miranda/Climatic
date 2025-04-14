@@ -3,21 +3,21 @@ import WeatherContext from "../Contexts/WeatherContext.jsx";
 
 function CityInput()
 {
-    const {updateCity} = useContext(WeatherContext);
+    const {city, updateCity} = useContext(WeatherContext);
     
-    const [city, setCity] = useState("");
+    const [inputCity, setInputCity] = useState(city);
     
     function handleInputChange(e)
     {
         const value = e.target.value;
-        setCity(value);
+        setInputCity(value);
     }
     
     function submitCity(e)
     {
-        if (e.key === 'Enter' && city.trim() !== '')
+        if (e.key === 'Enter' && inputCity.trim() !== '')
         {
-            updateCity(city);
+            updateCity(inputCity);
 
         }
     }
@@ -47,10 +47,10 @@ function CityInput()
             onKeyDown={(e) => submitCity(e)}    
             >
                 <div className="flex items-center">
-                    <input onChange={(e) => handleInputChange(e)} value={city} className="focus:outline-none w-[80%]" type="text" placeholder="Enter a city..."/>
+                    <input onChange={(e) => handleInputChange(e)} value={inputCity} className="focus:outline-none w-[80%]" type="text" placeholder="Enter a city..."/>
                 </div>
 
-                <svg onClick={() => updateCity(city)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-text-color">
+                <svg onClick={() => updateCity(inputCity)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-text-color">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
             </div>

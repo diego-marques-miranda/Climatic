@@ -8,8 +8,8 @@ function Days() {
     if (!dailyForecast)
     {
         return (
-            <div className="w-full h-[25%] mt-4 flex lg:h-full">
-                Loading...
+            <div className="w-full h-[25%] mt-4 flex lg:h-full ">
+                
             </div>
         );
         
