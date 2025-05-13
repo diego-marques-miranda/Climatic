@@ -33,7 +33,6 @@ function Now()
                 font-bold
                 
             ">
-                Loading...
             </div>
         </div>)
     }

@@ -13,7 +13,7 @@ import thunderIcon from '../assets/Icons/thunder.svg';
 export const WeatherContext = createContext();
 
 export const WeatherProvider = ({ children }) => {
-    const [city, setCity] = useState('São Paulo');
+    const [city, setCity] = useState('New York');
     const [latitude, setLatitude] = useState(null);  
     const [longitude, setLongitude] = useState(null);  
     const [currentWeather, setCurrentWeather] = useState(null);
